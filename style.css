@@ -8,10 +8,11 @@ body {
 form
  {border: 3px solid #f1f1f1;
     border-radius: 10px;
+    height: 100vh;
 }
 .container{
     width: 800px;
-    height: 500px;
+    height: 600px;
     padding: 20px 50px 20px 50px ;
     align-items: center;
     justify-content: center;
@@ -52,11 +53,10 @@ button {
   border-radius: 5px;
   cursor: pointer;
   width: 10%;
-  float:right;
  
-  
-
-  
+}
+a{
+  color: #2A6625;
 }
   
 button:hover {
@@ -65,5 +65,37 @@ button:hover {
 label {
     margin-bottom: 5px;
     display:flexbox;
+  }
+ .emptybtn{
+  background-color:white;
+  padding: 5px 0px;
+  margin:0;
+  margin-left:+200px;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 3%;
+  height:3vh;
+ 
+  }
+  .createbtn{
+    background-color:#2A6625;
+    color:white;
+    margin:0;
+    margin-left:+300px;
+    border: 1px solid #2A6625;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 15%;  
+    height: 5vh;
+    font-size:smaller;
+    
+    
+  }
+  button:hover{
+    opacity:0.8;
+  }
+  h5{
+    margin:0;
+    margin-left:+250px;
   }
  

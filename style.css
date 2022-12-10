@@ -1,7 +1,7 @@
 body {
     margin:0px;
     padding:0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Rubik;
     background-color:#ffffff;
     box-sizing: border-box;
 }
@@ -11,7 +11,7 @@ form
     height: 100vh;
 }
 .container{
-    width: 800px;
+    width: 700px;
     height: 600px;
     padding: 20px 50px 20px 50px ;
     align-items: center;
@@ -28,16 +28,51 @@ h2{
 }
 P{
     text-align: center;
+    color:#585756;
 }
 strong{
     padding: 5px;
+    margin:0 +20px;
+}
+.name{
+  padding: 5px;
+    margin:0 +17px;
+    color:#585756;
+}
+.password{
+  padding: 5px;
+    margin:0 +17px;
+    color:#585756;
+}
+.smp{
+  padding: 5px;
+    margin:0 +17px;
+    color:#585756;
+}
+.email{
+  padding: 5px;
+    margin:0 +255px;
+    color:#585756;
+}
+.confirm{
+  padding: 5px;
+  margin:0 +257px;
+  color:#585756;
+}
+.add button{
+  padding: 5px;
+  margin:0 +290px;
+}
+.link{
+  padding: 5px;
+  margin:0 +185px;
+  color:#585756;
 }
 
-
 input[type=text], input[type=password] {
-  width: 30%;
+  width: 42%;
   padding: 15px;
-  margin: 5px 0;
+  margin: 0 25px;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -48,15 +83,27 @@ button {
   background-color:white;
   color:black;
   padding: 5px 0px;
-  margin: 5px 0;
+  margin: 0 5px;
   border: 1px solid #2A6625;
   border-radius: 5px;
   cursor: pointer;
   width: 10%;
  
 }
+.linkbtn{
+  
+  color:black;
+  padding: 5px 0px;
+  margin: 0px 0px 0px +385px;
+  border: 1.5px solid #2A6625;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 12%;
+}
 a{
   color: #2A6625;
+  text-decoration: none;
+
 }
   
 button:hover {
@@ -97,5 +144,6 @@ label {
   h5{
     margin:0;
     margin-left:+250px;
+    color:#585756;
   }
  
